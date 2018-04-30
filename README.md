@@ -16,6 +16,8 @@ will open a file dialog in whick you can select the file that shoud be played. W
 
 *The shortcuts can be triggered whenever you want as long as the application is running. Simply press **CTRL+SHIFT+[F1-F12]** to play the corresponding file.*
 
+**Attention:** These shortcuts are globally registered and may interfere with shortcuts from other applications!
+
 ---
 
 Selected files will be saved in the settings and are persistent over restarts of the application.
