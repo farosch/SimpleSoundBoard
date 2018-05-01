@@ -201,10 +201,10 @@ namespace SimpleSoundBoard
 
         private void TsmiAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Product Version:\n" + Application.ProductVersion + 
-                "\nCopyright:\n" + "Faryan Rezagholi, 2018" +
-                "\nLicence:\nGNU GENERAL PUBLIC LICENSE Version 3" +
-                "\nSource Code:\nhttps://github.com/farosch/SimpleSoundBoard", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Product Version:\n\t" + Application.ProductVersion + 
+                "\nCopyright:\n\t" + "Faryan Rezagholi, 2018" +
+                "\nLicence:\n\tGNU GENERAL PUBLIC LICENSE Version 3" +
+                "\nSource Code:\n\thttps://github.com/farosch/SimpleSoundBoard", "About " + Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
